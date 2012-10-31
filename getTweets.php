@@ -14,12 +14,46 @@ $a1 = json_decode(getTweets('#SpyderOOODay'), true);
 $a2 = json_decode(getTweets('#GoodbyeEatStreet'), true);
 $a3 = json_decode(getTweets('#HelloLoringCorners'), true);
 
+$html = "<ul id=\"filter-tweet\">\n";
+
 foreach($a1[results] as $a) {
-  //var_dump($a);
-  // echo "----------";
-  printf("<img src=\"%s\" />\n", $a['profile_image_url']);
-  printf("%s", $a['text']);
-  printf("<br />");
+  $html .= "<li class=\"spydertrapoooday\">\n";
+
+  if(!empty($a['entities']['media'][0]['media_url'])) {
+    $html .= sprintf("<img src=\"%s\" /><br />\n", $a['entities']['media'][0]['media_url']);
+  }
+  $html .= sprintf("<a href=\"http://www.twitter.com/%s\"><img src=\"%s\" /></a>\n", 
+    $a['from_user'], $a['profile_image_url']);
+  $html .= sprintf("%s", $a['text']);
+  $html .= "</li>\n";
 }
+
+foreach($a2[results] as $a) {
+  $html .= "<li class=\"goodbyeeatstreet\">\n";
+
+  if(!empty($a['entities']['media'][0]['media_url'])) {
+    $html .= sprintf("<img src=\"%s\" /><br />\n", $a['entities']['media'][0]['media_url']);
+  }
+  $html .= sprintf("<a href=\"http://www.twitter.com/%s\"><img src=\"%s\" /></a>\n", 
+    $a['from_user'], $a['profile_image_url']);
+  $html .= sprintf("%s", $a['text']);
+  $html .= "</li>\n";
+}
+
+foreach($a3[results] as $a) {
+  $html .= "<li class=\"helloloringcorners\">\n";
+
+  if(!empty($a['entities']['media'][0]['media_url'])) {
+    $html .= sprintf("<img src=\"%s\" /><br />\n", $a['entities']['media'][0]['media_url']);
+  }
+  $html .= sprintf("<a href=\"http://www.twitter.com/%s\"><img src=\"%s\" /></a>\n", 
+    $a['from_user'], $a['profile_image_url']);
+  $html .= sprintf("%s\n", $a['text']);
+  $html .= "</li>\n";
+}
+
+$html .= "</ul>\n";
+
+echo $html;
 
 ?>

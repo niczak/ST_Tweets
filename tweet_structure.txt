@@ -19,3 +19,16 @@ array(19) {
 ["to_user_id"]=> int(0) 
 ["to_user_id_str"]=> string(1) "0" 
 ["to_user_name"]=> NULL }
+
+
+
+
+array(19) { 
+["created_at"]=> string(31) "Wed, 31 Oct 2012 19:06:16 +0000" 
+["entities"]=> array(4) { 
+  ["hashtags"]=> array(1) { 
+    [0]=> array(2) { 
+      ["text"]=> string(12) "spyderOOOday" 
+        ["indices"]=> array(2) { [0]=> int(94) [1]=> int(107) } } } ["urls"]=> array(0) { } ["user_mentions"]=> array(1) { [0]=> array(5) { ["screen_name"]=> string(11) "BrianneHern" ["name"]=> string(7) "Brianne" ["id"]=> int(23707043) ["id_str"]=> string(8) "23707043" ["indices"]=> array(2) { [0]=> int(3) [1]=> int(15) } } } 
+        ["media"]=> array(1) { [0]=> array(10) { ["id"]=> int(263704560806268929) ["id_str"]=> string(18) "263704560806268929" ["indices"]=> array(2) { [0]=> int(108) [1]=> int(128) } ["media_url"]=> string(38) "http://p.twimg.com/A6jd5qCCEAEqBV_.jpg" ["media_url_https"]=> string(39) "https://p.twimg.com/A6jd5qCCEAEqBV_.jpg" ["url"]=> string(20) "http://t.co/P6eSdrE1" ["display_url"]=> string(24) "pic.twitter.com/P6eSdrE1" ["expanded_url"]=> string(64) "http://twitter.com/BrianneHern/status/263704560797880321/photo/1" ["type"]=> string(5) "photo" ["sizes"]=> array(5) { ["medium"]=> array(3) { ["w"]=> int(600) ["h"]=> int(450) ["resize"]=> string(3) "fit" } ["orig"]=> array(3) { ["w"]=> int(1024) ["h"]=> int(768) ["resize"]=> string(3) "fit" } ["large"]=> array(3) { ["w"]=> int(1024) ["h"]=> int(768) ["resize"]=> string(3) "fit" } ["thumb"]=> array(3) { ["w"]=> int(150) ["h"]=> int(150) ["resize"]=> string(4) "crop" } ["small"]=> array(3) { ["w"]=> int(340) ["h"]=> int(255) ["resize"]=> string(3) "fit" } } } } } ["from_user"]=> string(11) "spyder_trap" ["from_user_id"]=> int(15032303) ["from_user_id_str"]=> string(8) "15032303" ["from_user_name"]=> string(11) "spyder_trap" ["geo"]=> NULL ["id"]=> int(263718549300838400) ["id_str"]=> string(18) "263718549300838400" ["iso_language_code"]=> string(2) "en" ["metadata"]=> array(1) { ["result_type"]=> string(6) "recent" } ["profile_image_url"]=> string(77) "http://a0.twimg.com/profile_images/1691530414/spyder_trap_twitter1_normal.png" ["profile_image_url_https"]=> string(79) "https://si0.twimg.com/profile_images/1691530414/spyder_trap_twitter1_normal.png" ["source"]=> string(59) "<a href="http://twitter.com/">web</a>" ["text"]=> string(128) "RT @BrianneHern: I changed up my work space. Tracie needed some estrogen backup w these boys. #spyderOOOday http://t.co/P6eSdrE1" ["to_user"]=> NULL ["to_user_id"]=> int(0) ["to_user_id_str"]=> string(1) "0" ["to_user_name"]=> NULL 
+}
