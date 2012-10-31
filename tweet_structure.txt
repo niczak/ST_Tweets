@@ -1,0 +1,21 @@
+array(19) { 
+["created_at"]=> string(31) "Wed, 31 Oct 2012 20:45:44 +0000" 
+["entities"]=> array(3) { ["hashtags"]=> array(1) { [0]=> array(2) { ["text"]=> string(12) "spyderOOOday" ["indices"]=> array(2) { [0]=> int(17) [1]=> int(30) } } } ["urls"]=> array(1) { [0]=> array(4) { ["url"]=> string(20) "http://t.co/ZqsmnJz9" ["expanded_url"]=> string(25) "http://twitpic.com/b95vol" ["display_url"]=> string(18) "twitpic.com/b95vol" ["indices"]=> array(2) { [0]=> int(51) [1]=> int(71) } } } ["user_mentions"]=> array(0) { } } 
+
+["from_user"]=> string(8) "shaymein" 
+["from_user_id"]=> int(14464162) 
+["from_user_id_str"]=> string(8) "14464162" 
+["from_user_name"]=> string(13) "Shaymein Ewer" 
+["geo"]=> NULL 
+["id"]=> int(263743582656159744) 
+["id_str"]=> string(18) "263743582656159744" 
+["iso_language_code"]=> string(2) "en" 
+["metadata"]=> array(1) { ["result_type"]=> string(6) "recent" } 
+["profile_image_url"]=> string(60) "http://a0.twimg.com/profile_images/1767319576/pic_normal.jpg" 
+["profile_image_url_https"]=> string(62) "https://si0.twimg.com/profile_images/1767319576/pic_normal.jpg" 
+["source"]=> string(70) "<a href="http://www.tweetdeck.com">TweetDeck</a>" 
+["text"]=> string(71) "Finishing up the #spyderOOOday in a Huey H-Model. http://t.co/ZqsmnJz9" 
+["to_user"]=> NULL 
+["to_user_id"]=> int(0) 
+["to_user_id_str"]=> string(1) "0" 
+["to_user_name"]=> NULL }
